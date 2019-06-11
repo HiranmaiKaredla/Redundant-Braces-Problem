@@ -13,10 +13,9 @@ Example:
 ((a + b)) has redundant braces so answer will be 1
 (a + (a + b)) doesn't have have any redundant braces so answer will be 0
 """
-
-class Solution:
-    # @param A : string
-    # @return an integer
+class Solution:    
+    
+    
     def braces(self, A):
         l=[]
         op=['+','-','*','/']
